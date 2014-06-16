@@ -1,0 +1,851 @@
+/*
+
+Theme Name: TunnelVision
+
+Theme URI: http://www.timbroadwater.com
+
+Description: An old business website design
+
+Version: 2
+
+Author: Tim Broadwater
+
+Author URI: http://www.timbroadwater.com
+
+Tags: red, black, white
+
+*/
+
+
+
+
+
+
+
+/* Desktop Version */
+
+
+
+@media screen {
+
+
+
+
+
+/* Header */
+
+
+
+#topmenu {height:50px; min-width:959px; background:#000;}
+
+
+
+#logo {display:block; -moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; border-color: #666; border-style: solid; border-width: 0 1px 0 0; color: #fff; float: left; font-family: Arial; font-size: 14px; height: 31px; padding: 19px 0 0; text-align: center; vertical-align: middle; width: 220px;}
+
+
+
+#mlogo {display:none;}
+
+
+
+#mnav {display:none;}
+
+
+
+#access {display: block; float: left; margin: 0 auto; width: 575px; padding: 6px 0px 0px 10px; height:44px;}
+
+#access .menu-header, div.menu {font-size: 14px; font-family: Arial; text-transform:uppercase; margin-left: 12px; width: 575px;}
+
+#access .menu-header ul, div.menu ul {list-style: none; margin: 0; padding-left: 0;}
+
+#access .menu-header li, div.menu li {float: left; position: relative; background-image: url('http://www.vf20designs.com/wp-content/themes/Starkers/images/redarrow.png'); background-repeat: no-repeat; background-position: right center; margin: 0px 20px 0px 0px;}
+
+#access a {color: #aaa; display: block; line-height: 44px; padding: 0 10px; text-decoration: none;}
+
+#access ul ul {display: none; position: absolute; top: 44px; left: 0; float: left; width: 180px; z-index: 99999; background:#000;}
+
+#access ul ul li {min-width: 180px; background:#000;}
+
+#access ul ul li:hover {background:#333;}
+
+#access ul ul ul, #access ul ul ul li {left: 100%; top: 0; width:0px;}
+
+#access ul ul a {font-size:12px; background: #000; line-height: 1.5em; padding: 6px 10px; width: 160px; height: auto;}
+
+#access li:hover > a {color: #fff;}
+
+#access ul ul :hover > a {color: #fff; background:#660000;}
+
+#access ul li:hover > ul {display: block;}
+
+#access ul li.current_page_item > a, #access ul li.current-menu-ancestor > a, #access ul li.current-menu-item > a, #access ul li.current-menu-parent > a {color: #fff;}
+
+
+
+#msearch {display:none;} 
+
+
+
+#search {display:block; float: right; width: 150px; height: 50px;}
+
+#search #s {-moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; background-color: #000000; border-color: #666666; border-style: solid; border-width: 2px 0 2px 2px; color: #AAAAAA; float: left; width: 100px;}
+
+#search #searchsubmit {width: 25px; background-color: #000000; border: 2px solid #666666; background-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/search.jpg");}
+
+#search #searchform {padding: 15px 0 0;}
+
+
+
+/* Home Page */
+
+
+
+.gllr_single_image_text {color:#fff !important;}
+
+#cntctfrm_contact_form input.text, #cntctfrm_contact_form textarea, #cntctfrm_contact_message, #cntctfrm_contact_name, #cntctfrm_contact_email, #cntctfrm_contact_subject {width: 260px !important; margin: 0px 0px 20px 0px !important;}
+
+
+
+#hpcontentcol {width:960px; height:auto; margin: 0 auto; overflow:hidden;}
+
+
+
+#hpcon {height:575px; width:940px; margin: 0 auto; padding:10px 0 0;}
+
+
+
+#hpconleft {height:575px; width:425px; float:left; background-image: url('http://www.vf20designs.com/wp-content/themes/Starkers/images/50square.png'); padding: 0px 20px;}
+
+#hpconleft h1, h2, h3, h4 {font-family:Arial; color:#ff3333;}
+
+#hpconleft p {font-family:Arial; color:#fff; line-height:150%; text-align: justify;}
+
+#hpconleft a {color:#fc9a9a; text-decoration: none;}
+
+#hpconleft a:hover {color:#fbc3c3; text-decoration: underline; font-family:Arial;}
+
+
+
+#hpconright {height:575px; width:465px; float:left; margin: 0px 0px 0px 10px;}
+
+
+
+#recentposttop {width:435px; height:30px; float:left; background-image: url('http://www.vf20designs.com/wp-content/themes/Starkers/images/40square.png'); padding:10px 20px 0px 10px; overflow:hidden;}
+
+
+
+#recentposttop a {color:#ff9900; text-decoration: none;}
+
+#recentposttop a:hover {color:#fff; text-decoration: underline; font-family:Arial;}
+
+
+
+
+
+#recentpostbot {width:465px; height:20px; float:left; background-image: url('http://www.vf20designs.com/wp-content/themes/Starkers/images/40square.png'); overflow:hidden;}
+
+
+
+#recentpost {height:220px; width:423px; float left; overflow-x:hidden; overflow-y:scroll; padding: 0px 20px 0px 20px; border: 1px solid #707070; font-family:Arial; color:#333; line-height:150%; background-image: url('http://www.vf20designs.com/wp-content/themes/Starkers/images/40white.png');}
+
+#recentpost h1, h2, h3, h4 {font-family:Arial; color:#ff3333;}
+
+#recentpost p {font-family:Arial; color:#333; line-height:150%}
+
+#recentpost a {color:#ff3333; text-decoration: none;}
+
+#recentpost a:hover {color:#ff000; text-decoration: underline; font-family:Arial;}
+
+.meta-prep, .meta-prep-author, .meta-sep, .author {display:none;}
+
+
+
+#hpsocialmedia {height:283px; width:465px; float left; margin: 30px 0 0;}
+
+
+
+#facebook {height:283px; width:465px; float: left; background-image: url('http://www.vf20designs.com/wp-content/themes/Starkers/images/facebookbg.png');}
+
+#twitter {height:283px; width:228px; float: left; margin: 0 0 0 10px; background: #b4b4b4;}
+
+
+
+/* Daipo Feature Box */
+
+
+
+.pix_diapo {
+
+	background: #000;
+
+
+
+	height: 470px;
+
+	margin: 0 10px;
+
+	overflow: hidden;
+
+	position: relative;
+
+	width: 940px;
+
+}
+
+.pix_diapo > div {
+
+	display: none;
+
+	height: 100%;
+
+	left: 0;
+
+	position: absolute;
+
+	top: 0;
+
+	width: 100%;
+
+}
+
+#pix_prev, #pix_next {
+
+	cursor: pointer;
+
+	display: block;
+
+	height: 40px;
+
+	margin-top: -20px;
+
+	position: absolute;
+
+	top: 50%;
+
+	width: 40px;
+
+	z-index: 1001;
+
+}
+
+#pix_prev {
+
+	background: url(images/diapo/prev.png) no-repeat;
+
+	left: 10px;
+
+}
+
+#pix_next {
+
+	background: url(images/diapo/next.png) no-repeat;
+
+	left: auto!important;
+
+	right: 10px!important;
+
+}
+
+#pix_pag {
+
+	margin: 0 auto;
+
+	position: relative;
+
+	width: 940px;
+
+	z-index: 1002;
+
+}
+
+#pix_commands {
+
+	cursor: pointer;
+
+	display: block;
+
+	float: left;
+
+	height: 26px;
+
+	margin: 15px 0 0 13px;
+
+	position: relative;
+
+	width: 24px;
+
+}
+
+#pix_play {
+
+	background: url(images/diapo/play.png) center no-repeat;
+
+	height: 24px;
+
+	left: 0;
+
+	position: absolute;
+
+	top: 0;
+
+	width: 24px;
+
+}
+
+#pix_stop {
+
+	background: url(images/diapo/pause.png) center no-repeat;
+
+	height: 24px;
+
+	left: 0;
+
+	position: absolute;
+
+	top: 0;
+
+	width: 24px;
+
+}
+
+#pix_pag_ul {
+
+	float: right;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+#pix_pag_ul > li {
+
+	cursor: pointer;
+
+	display: block;
+
+	.display: inline-block;
+
+	float: left;
+
+	list-style: none;
+
+	margin: 0 10px 0 0;
+
+	padding: 20px 8px 0;
+
+	text-align: center;
+
+	text-indent: -9999px;
+
+	width: 16px;
+
+}
+
+#pix_pag_ul > li > span {
+
+	background: #222;
+
+	-webkit-border-radius: 8px;
+
+	-moz-border-radius: 8px;
+
+	border-radius: 8px;
+
+	display: block;
+
+	height: 16px;
+
+	width: 16px;
+
+}
+
+#pix_pag_ul > li:hover > span > span {
+
+	background: #ccc;
+
+}
+
+#pix_pag_ul > li > span > span {
+
+	-webkit-border-radius: 8px;
+
+	-moz-border-radius: 8px;
+
+	border-radius: 8px;
+
+	display: block;
+
+	float: left;
+
+	height: 8px;
+
+	margin: 4px;
+
+	width: 8px;
+
+}
+
+#pix_pag_ul > li.diapocurrent > span > span {
+
+	background: #ff0000;
+
+	-webkit-border-radius: 8px;
+
+	-moz-border-radius: 8px;
+
+	border-radius: 8px;
+
+}
+
+#pix_pag_ul > li > .pix_thumb {
+
+	border: 4px solid #f2f2f2;
+
+	.border: 4px solid #e6e6e6;
+
+	border: 4px solid #e6e6e6\9;
+
+	-moz-box-shadow: 0 1px 8px #000;
+
+	-webkit-box-shadow: 0 1px 8px #000;
+
+	box-shadow: 0 1px 8px #000;
+
+	height: 58px;
+
+ 	left: -17px;
+
+	position: absolute;
+
+	top: -40px;
+
+	width: 58px;
+
+}
+
+#pix_pag_ul > li > .thumb_arrow {
+
+    border-left: 4px solid transparent;
+
+    border-right: 4px solid transparent;
+
+    border-top: 4px solid  #e6e6e6;
+
+	top: 26px;
+
+	left: 12px;
+
+	position: absolute;
+
+}
+
+.pix_relativize {
+
+	overflow: hidden;
+
+	position: relative;
+
+}
+
+.imgFake {
+
+	cursor: pointer;
+
+}
+
+.elemHover {
+
+	position: absolute;
+
+}
+
+.caption {
+
+	background: rgba(102, 0, 0, 0.6); 
+
+    .filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
+
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000)\9;
+
+	bottom: 20px;
+
+	color: #fff;
+
+	display: block;
+
+	font-size: 13px;
+
+	padding: 20px;
+
+	width: 900px;
+
+}
+
+.ui-loader {
+
+	display: none;
+
+}
+
+
+
+.caption a {color:#fc9a9a; text-decoration: none;}
+
+.caption a:hover {color:#fc9a9a; text-decoration: underline;}
+
+
+
+/* Gallery */
+
+
+
+.gallery .gllr_image_block {
+
+    float: left;
+
+    padding: 0 25px 0 0;}
+
+
+
+.gllr_single_image_text {
+
+    color: #FFFFFF;
+
+    font-family: arial;
+
+    font-size: 12px;}
+
+
+
+/* Body */
+
+
+
+iframe {width:480px; height:320px;}
+
+
+
+#comment {margin: 0 0 0 20px;}
+
+
+
+body {margin: 0; background: url('http://www.vf20designs.com/wp-content/themes/Starkers/images/sky2.jpg');}
+
+a {font-family:Arial;} 
+
+
+
+#contentwrap {height:auto; min-width: 960px; margin: 10px 0px; overflow:hidden; background-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/hstrip2.png"); background-repeat: repeat-y; background-position: top center;}
+
+#contentcol {width:960px; height:auto; margin: 0 auto; overflow:hidden; background-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/hstrip4.png"); background-repeat: repeat-y; background-position: top center; padding: 20px 0;}
+
+#maincol {width:620px; height:auto; float: left; padding: 0 40px; font-family:Arial; color:#fff; line-height:150%;}
+
+#sidebarcol {width:260px; height:auto; float: left; font-family:Arial; color:#fff; line-height:150%;}
+
+#sidebarcol ul {list-style: none inside none; padding: 0 0 0 20px; width: 220px;}
+
+#sidebarcol li {padding: 0px;}
+
+#sidebarcol ul ul {list-style: none inside none; padding: 0 0 0 0px;}
+
+#sidebarcol p {font-family:Arial; color:#fff; line-height:150%;}
+
+
+
+#maincol h1 {font-family:Arial; color:#ff3333; text-shadow: 0.1em 0.1em #333;}
+
+#maincol h2, h3, h4 {font-family:Arial; color:#fff; text-shadow: 0.1em 0.1em #333;}
+
+
+
+#maincol p {font-family:Arial; color:#fff; line-height:150%}
+
+#maincol a {color:#fc9a9a; text-decoration: none;}
+
+#maincol a:hover {color:#fbc3c3; text-decoration: underline; font-family:Arial;}
+
+
+
+.required {color:#ff0000;}
+
+.client {float:left; margin: 0 16px 16px 0;}
+
+.text {margin:0px 0px 20px 0px;}
+
+
+
+#sidebarcol h1, h2, h3, h4 {font-family:Arial; color:#000; text-shadow: none;}
+
+#sidebarcol p {font-family:Arial; color:#fff; line-height:150%}
+
+#sidebarcol a {color:#fc9a9a; text-decoration: none;}
+
+#sidebarcol a:hover {color:#fbc3c3; text-decoration: underline; font-family:Arial;}
+
+
+
+#cntctfrm_contact_form input.text, 
+
+#cntctfrm_contact_form textarea,
+
+#cntctfrm_contact_message, 
+
+#cntctfrm_contact_name, 
+
+#cntctfrm_contact_email,
+
+#cntctfrm_contact_subject {
+
+	width:320px;
+
+}
+
+
+
+
+
+
+
+/* Footer */
+
+
+
+#mcopyright {display:none;}
+
+
+
+#bottomcol {width:960px; height:200px; margin: 0 auto; font-family:Arial;}
+
+
+
+#bottomcol h1 {color:#fff; font-size: 0.8em; padding: 10px 0 0 40px; text-transform: uppercase;}
+
+#bottomcol ul {list-style: none outside none; padding: 0px 20px 0px 40px; line-height: 130%;}
+
+#bottomcol li {font-size: 0.8em;}
+
+#bottomcol li a {color:#ff0000; text-decoration: none;}
+
+#bottomcol li a:hover {color:#fff; text-decoration: none;}
+
+
+
+.facebook {list-style-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/facebook.png");}
+
+.foursquare {list-style-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/foursquare.png");}
+
+.google {list-style-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/google.png");}
+
+.myspace {list-style-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/myspace.png");}
+
+.twitter {list-style-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/twitter.png");}
+
+.youtube {list-style-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/youtube.png");}
+
+
+
+#socialmedia {float:left; width:192px; height:200px;}
+
+#socialmedia ul {padding-left:65px; line-height: 115%;}
+
+#socialmedia ul li a {vertical-align: top;}
+
+
+
+#customerservice {float:left; width:192px; height:200px; background-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/bcolgrad.png"); background-position: top left; background-repeat: no-repeat;}
+
+#sites {float:left; width:192px; height:200px; background-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/footerline.png"); background-position: top left; background-repeat: no-repeat;}
+
+#legalinfo {float:left; width:192px; height:200px; background-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/footerline.png"); background-position: top left; background-repeat: no-repeat;}
+
+#other {float:left; width:192px; height:200px; background-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/footerline.png"); background-position: top left; background-repeat: no-repeat;}
+
+
+
+#bottom {height:200px; min-width:959px; background-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/80square.png"); margin: 0px 0px 1px 0px;}
+
+
+
+#bottomenu {height:50px; background:#000; min-width:959px;}
+
+
+
+#copyright {color: #FFFFFF; float: left; font-family: Arial; font-size: 0.6em; height: 35px; padding: 15px 0 0 50px; text-transform: uppercase; width: 430px;}
+
+
+
+#media {color: #FF0000; float: right; font-family: Arial; font-size: 0.6em; padding: 10px 20px 0 0; text-align: right; text-transform: uppercase; font-weight:bold; width: 439px;}
+
+#media a {color:#666; text-decoration:none;}
+
+#media a:hover {color:#fff; text-decoration:none;} 
+
+}
+
+
+
+/* SmartPhone Version */
+
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+body {margin: 0; background: none;}
+
+
+
+#topmenu {height:auto; min-width:320px; overflow:hidden; margin:0 auto;}
+
+
+
+#logo {display:none;}
+
+
+
+#mlogo {display:block; color: #fff; font-family: Arial; font-size: 26px; height: 31px; padding: 20px 0px; text-align: center; vertical-align: middle; min-width: 320px; margin: 0 auto;}
+
+
+
+#mnav {display:block; margin:0 auto; height:auto; padding:0px 0px 20px 0px; text-align:center;}
+
+#mnav #page_id {width:280px;}
+
+#access {display:none;}
+
+
+
+#search {display:none;} 
+
+
+
+#msearch #s {
+
+    -moz-border-bottom-colors: none;
+
+    -moz-border-image: none;
+
+    -moz-border-left-colors: none;
+
+    -moz-border-right-colors: none;
+
+    -moz-border-top-colors: none;
+
+    background-color: #000000;
+
+    border-color: #666666;
+
+    border-style: solid;
+
+    border-width: 2px 2px 2px 2px;
+
+    color: #AAAAAA;
+
+    float: left;
+
+    width: 248px;
+
+}
+
+#msearch #searchsubmit {
+
+    background-color: #000000;
+
+    background-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/search.jpg");
+
+background-repeat:none;
+
+    float: right;
+
+    width: 25px;
+
+border:none;
+
+}
+
+#msearch #searchform {
+
+    display: block;
+
+    margin: 0 auto;
+
+    width: 280px;
+
+}
+
+#msearch {
+
+    display: block;
+
+    height: 50px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+}
+
+
+
+#hpcontentcol {display:none;}
+
+#hpconright {display:none;}
+
+#hpconleft {float: left; height: auto; width: 280px;}
+
+#hpcon {height:auto ; margin: 0 auto; width:320px; padding: 0px;}
+
+
+
+#contentwrap {margin:10px 0; min-width:320px; overflow:hidden; height:auto; background-image: url("http://www.vf20designs.com/wp-content/themes/Starkers/images/mstrip.png"); background-position: center top; background-repeat: repeat-y;}
+
+
+
+#contentcol {background:url('http://www.vf20designs.com/wp-content/themes/Starkers/images/50square.png'); width:320px; overflow:hidden; height:auto; margin: 0 auto;}
+
+
+
+#maincol {background:none; float:left; padding:0 20px; width:280px; height:auto;}
+
+#maincol h1 {line-height: 150%;}
+
+
+
+
+
+#bottom {display:none;}
+
+#bottomenu {background: none repeat scroll 0 0 #000000; height: auto; min-width: 320px;}
+
+#mcopyright {display:block; height: auto; min-width: 320px; color: #FFFFFF; font-family: Arial; font-size: 0.6em; text-transform: uppercase; text-align:center; padding-top:15px;}
+
+#copyright {display:none;}
+
+#media {display:none;}
+
+
+
+#cntctfrm_contact_form input.text, #cntctfrm_contact_form textarea, #cntctfrm_contact_message, #cntctfrm_contact_name, #cntctfrm_contact_email, #cntctfrm_contact_subject {width:280px;}
+
+
+
+iframe {width:280px; height:200px;}
+
+
+
+.fb_reset {display:none;}
+
+.stwrapper {display:none;}
+
+
+
+#hpconleft h1 {display:none;}
+
+
+
+#comment {width: 230px;}
+
+}
